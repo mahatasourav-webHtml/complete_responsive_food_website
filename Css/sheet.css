@@ -1,0 +1,126 @@
+*{margin: 0;
+    padding: 0;
+    }
+    
+    a{text-decoration: none;
+    }
+    
+    a img {border: none;
+    }
+    
+    h1,h2,h3,h4,h5,h6,p{margin: 0;
+    padding: 0;
+    }
+
+.banner{position: relative;
+    height: 500px;
+    float: left;
+    width: 100%;
+    
+    }
+    
+    .banner img{width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    }
+    .banner .bnrtxt{position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.434);
+    }
+   /**  .bnrtxt{display: flex;
+    flex-direction: row;}**/
+   .bnrtxt .get{height: 20px;
+    
+}
+.bnrtxt .Book{height: 20px;
+  
+
+}
+    .banner .get{position: absolute;
+        top: 100px;
+        bottom: 0px;
+        right: 0px;
+        left: 550px;
+        align-items: bottom;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: aliceblue;
+       
+    }
+    
+    .banner .Book{position: absolute;
+        top: 100px;
+        bottom: 0px;
+        right: 0px;
+        left: 600px;
+        align-items: bottom;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: aliceblue;
+    }
+    .Book a{border-color: #fbc31b;
+        border-style: 2px solid;
+        border-radius: 25px;
+        padding: 10px 20px 10px 20px;
+    margin-left: 50px;
+    color:#fbc31b;
+    }
+    
+    .get a{border-color: #ffffff;
+        border-style: 2px solid;
+        border-radius: 25px;
+        padding: 12px 24px 12px 24px;
+        margin-right: 150px;
+         color: #fbc31b;
+        background-color: #ffffff;
+    }
+    .service_quality_part{width: 100%;
+    }
+    
+    .service_quality{position: relative;
+    overflow: hidden;
+    margin-top: 80px;
+    height: 80vh;
+    }
+    
+    .service_quality_sec{position: absolute;
+    width: 100%;
+    top: 20%;
+    }
+    
+    .quality_heading{text-align: center;
+    }
+    
+    .quality_heading h5{color: #fbc31b;
+        font-size: 22px;
+        font-family: cursive;
+    }
+    .quality_heading h2{color: #ffffff;
+    font-size: 38px;
+    font-family: serif;
+    }
+    .flex_sec_three{display: flex;
+    }
+    
+    .box{width: 33%;
+        padding: 80px 40px;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 30px;
+        background-color: #fff;
+        color: #000;
+        border-top: 3px solid #fbc31b;
+        margin: 30px;
+    }
+    
